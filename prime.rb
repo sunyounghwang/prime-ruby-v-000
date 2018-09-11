@@ -1,3 +1,5 @@
+require 'pry'
+
 def prime?(int)
   if int < 0 || int == (0 || 1) #accounts for negative num, 0, and 1
     return false
